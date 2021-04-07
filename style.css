@@ -1,0 +1,53 @@
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.name {
+    font-size: 60px;
+}
+
+.container {
+    display: flex;
+}
+
+.container-h {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-v {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.title {
+    font-size: 35px;
+}
+
+.column {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.photo {
+    max-width: 20%;
+    max-height: 20%;
+}
